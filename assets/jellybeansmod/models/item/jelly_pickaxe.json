@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "jellybeansmod:item/jelly_pickaxe"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.reflexzeestudio.jellybeansmod.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "JellybeansmodModRepairItemRecipeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "jellybeansmod.refmap.json"
+}

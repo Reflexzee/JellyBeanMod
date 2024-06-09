@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "jellybeansmod",
+  "version": "1.0",
+  "name": "Jelly Beans Mod",
+  "description": "Little mod made in MCreator cuz i was bored!",
+  "authors": [
+    "Reflexzee"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Custom license",
+  "icon": "assets/jellybeansmod/icon.png",
+  "accessWidener": "jellybeansmod.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.reflexzeestudio.jellybeansmod.JellybeansmodMod"
+    ],
+    "client": [
+      "net.reflexzeestudio.jellybeansmod.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "jellybeansmod.mixins.json"
+  ]
+}
