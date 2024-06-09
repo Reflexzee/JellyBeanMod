@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "jellybeansmod:jelly_bean"
+    },
+    "title": "Get Jelly",
+    "description": "Can't wait to eat this!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_jelly_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jellybeansmod:jelly_bean"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "minecraft:story/root"
+}

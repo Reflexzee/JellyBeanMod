@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "jellybeansmod:jelly_beans_ore"
+    }
+  },
+  "result": {
+    "item": "jellybeansmod:jelly_beans_ore_block",
+    "count": 1
+  }
+}

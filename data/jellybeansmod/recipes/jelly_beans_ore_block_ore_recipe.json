@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jellybeansmod:jelly_beans_ore_block"
+    }
+  ],
+  "result": {
+    "item": "jellybeansmod:jelly_beans_ore",
+    "count": 9
+  }
+}

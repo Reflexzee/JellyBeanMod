@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "jellybeansmod:eaten_jelly_bean"
+    }
+  },
+  "result": {
+    "item": "jellybeansmod:jelly_bean",
+    "count": 1
+  }
+}

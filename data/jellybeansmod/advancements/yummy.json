@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "jellybeansmod:eaten_jelly_bean"
+    },
+    "title": "THAT WAS YUMMY!",
+    "description": "Eat a JellyBean",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yummy_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "jellybeansmod:jelly_bean"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "jellybeansmod:get_jelly"
+}
